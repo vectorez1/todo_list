@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&family=Roboto&display=swap');
+
+.title-text{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.delete{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.list-container{
+    min-height: 0px;
+}
+.todo{
+    min-height: 80px;
+}
