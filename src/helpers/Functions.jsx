@@ -33,6 +33,6 @@ export const AddItem = (e) =>{
   e.target.todoInput.value = "";
 } */
 
-export const GetItem = (listName = 'todoList') =>{
+export const getItem = (listName = 'todoList') =>{
     return JSON.parse(localStorage.getItem(listName));
 }

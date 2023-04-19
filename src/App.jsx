@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import { Main } from './routes/main'
+import { Index } from './pages/Index'
 
 function App() {
 
   return (
-    <Main/>
+    <Index/>
   )
 }
 
