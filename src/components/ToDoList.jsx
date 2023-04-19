@@ -17,7 +17,7 @@ export const ToDoList = () => {
 
   return (
     <div className="w-[526px] h-[615px] flex flex-col  text-center items-center  rounded-t-[3rem] rounded-b-[1.5rem] border-[5px] border-black overflow-hidden">
-      <header className=" w-[100%] h-[75px bg-remolacha-iceCream border-b-[5px] border-inherit flex justify-center items-center">
+      <header className=" w-[100%] h-[75px bg-remolacha-600 border-b-[5px] border-inherit flex justify-center items-center">
         <h1 className="title-text text-white text-[38px] py-2">
           WRITE YOUR GOALS!
         </h1>

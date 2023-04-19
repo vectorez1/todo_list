@@ -16,10 +16,10 @@ export const ToDo = (props) => {
     });
   };
   return (
-    <div className="todo flex flex-row bg-remolacha-fruit w-[90%] border-black border-[5px] rounded-[1rem] overflow-hidden">
+    <div className="todo flex flex-row bg-remolacha-800 w-[90%] border-black border-[5px] rounded-[1rem] overflow-hidden">
       <div className=" flex-1 text-start pl-4 overflow-hidden">
         <h3 className=" text-[1.5rem] text-white font-bold">{task}</h3>
-        <hr className=" border-black border-b-var(--outline-width) " />
+        <hr className=" border-black border-b-[5px] " />
         <p className="text-[14px] text-white font-semibold">
           {date.month + "/" + date.day + "/" + date.year}
         </p>

@@ -27,11 +27,11 @@ export const ToDoInput = ({ setTodoList }) => {
 
   return (
     <form
-      className="w-[80%] h-[70px] bg-remolacha-fruit border-black border-b-[5px] border-l-[5px] border-r-[5px] rounded-b-[30px] flex justify-center items-center"
+      className="w-[80%] h-[70px] bg-remolacha-800 border-black border-b-[5px] border-l-[5px] border-r-[5px] rounded-b-[30px] flex justify-center items-center"
       onSubmit={(e) => addItems(e)}
     >
       <p
-        className={`absolute top-[70px] p-1 bg-remolacha-soft rounded-[13px] font-bold text-red-700 transition-all ${
+        className={`absolute top-[70px] p-1 bg-remolacha-300 rounded-[13px] font-bold text-red-700 transition-all ${
           input.length < 30 ? "invisible" : "visible"
         }`}
       >
@@ -39,7 +39,7 @@ export const ToDoInput = ({ setTodoList }) => {
       </p>
       <div className="border-inherit border-[5px] rounded-[10px] overflow-hidden w-[90%] h-[40px] flex justify-center items-center">
         <input
-          className={`h-[100%] w-[100%] border-r-[5px] border-inherit p-2 bg-remolacha-softer placeholder-remolacha-soft ${
+          className={`h-[100%] w-[100%] border-r-[5px] border-inherit p-2 bg-remolacha-200 placeholder-remolacha-300 ${
             input.length == 30 && "text-red-600"
           }`}
           type="text"
@@ -50,7 +50,7 @@ export const ToDoInput = ({ setTodoList }) => {
           onChange={(e) => setInput(e.target.value)}
         />
         <button
-          className="p-2 bg-remolacha-iceCream h-[100%] transition-all hover:bg-remolacha-fruit"
+          className="p-2 bg-remolacha-600 h-[100%] transition-all hover:bg-remolacha-800"
           type="submit"
         >
           <img src={Add} width="15px" />{" "}

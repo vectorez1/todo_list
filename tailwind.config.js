@@ -8,11 +8,10 @@ export default {
     extend: {
       colors:{
         remolacha:{
-          fruit:'#C71F3D',
-          iceCream:'#EF4977',
-          soft:'#F9BECE',
-          softer:'#F9E9F2',
-          salmon:'#F9C5D9',
+          800:'#C71F3D',
+          600:'#EF4977',
+          300:'#F9BECE',
+          200:'#F9E9F2',
         }
       }
     },
