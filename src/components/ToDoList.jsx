@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./ToDoList.css";
+import "../styles/ToDoList.css";
 import { ToDoInput } from "./ToDoInput";
 import { ToDo } from "./ToDo";
 import { getItem } from "../helpers/Functions";

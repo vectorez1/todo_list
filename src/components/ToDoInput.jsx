@@ -27,11 +27,11 @@ export const ToDoInput = ({ setTodoList }) => {
 
   return (
     <form
-      className="w-[80%] h-[70px] bg-remolacha-800 border-black border-b-[5px] border-l-[5px] border-r-[5px] rounded-b-[30px] flex justify-center items-center"
+      className="relative w-[80%] h-[70px] bg-remolacha-800 border-black border-b-[5px] border-l-[5px] border-r-[5px] rounded-b-[30px] flex justify-center items-center"
       onSubmit={(e) => addItems(e)}
     >
       <p
-        className={`absolute top-[70px] p-1 bg-remolacha-300 rounded-[13px] font-bold text-red-700 transition-all ${
+        className={`absolute top-[60px] p-1 bg-remolacha-300 rounded-[13px] font-bold text-red-700 transition-all ${
           input.length < 30 ? "invisible" : "visible"
         }`}
       >
